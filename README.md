@@ -37,13 +37,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | Implement ClubService | import ClubService | complete |
 | Create routing | $ touch app.router.ts | complete |
 | Route to homepage(splash) in navbar | < a (routerLink)="/"> | complete (splash, about, admin) |
-| Create components | ( splash, about, admin, member-page(dynamic), post(dynamic) ) | complete (splash, about, admin, member-page, dynamic )|
+| Create components | ( splash, about, admin, members-list, member-page(dynamic), post(dynamic) ) | complete (splash, about, admin, member-page, dynamic )|
 | Implement routing for all components | add to routes to router.ts and module.ts | complete|
 | Retrieve data from firebase | Import FirebaseListObservables<any[]> and add to constructor(s) private  angularfire: AngularFire (in service as well as .ts files using the service) | complete |
 | Implement post request to Firebase for new-member | Add form for new-member on admin  | complete |
 | Add the ability to edit a member from the admin page | Add form and use the member.$key to update an existing post | complete |
-|Add the ability to delete a member from the admin page | Add a delete button on the admin page | incomplete |  
-| Create dynamic route for posts | link from splash | incomplete |
+|Add the ability to delete a member from the admin page | Add a delete button on the admin page | complete |
+| Create a members-list page to display members | members component | complete |
+| Create dynamic route for posts | link from members and admin page | incomplete |
 | Create route for post from member-page | add button for new-post form on user-page | incomplete |
 | Create route for new-comment from post | add button for new-comment form on post | incomplete |
 | Implement post request to Firebase  (form on component new-post) | push to firebase (new post)| incomplete |

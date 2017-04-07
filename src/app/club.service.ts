@@ -10,7 +10,6 @@ members: FirebaseListObservable<any[]>;
     console.log(this.members);
   }
 
-
   getMembers() {
     return this.members;
   }
