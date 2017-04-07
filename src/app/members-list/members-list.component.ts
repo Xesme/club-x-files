@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   templateUrl: './members-list.component.html',
   styleUrls: ['./members-list.component.css'],
   providers: [ClubService]
-  
+
 })
 export class MembersListComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
@@ -19,4 +19,7 @@ export class MembersListComponent implements OnInit {
     this.members = this.clubService.getMembers();
   }
 
+  goToMemberPage(member){
+    this.router.navigate(['member-page', member.$key]);
+  }
 }
