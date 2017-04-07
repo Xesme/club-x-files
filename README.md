@@ -34,18 +34,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | Create seed (club.json) | ( displayName: " ", posts: [ id: "" post: ""], comments: [], ranking: " " )| complete |
 | Seed has been imported firebase | import club.json | complete |
 | Create service for project | $ ng g service club.service | complete |
+| Implement ClubService | import ClubService | complete |
 | Create routing | $ touch app.router.ts | complete |
-| Route to homepage(splash) in navbar | < a (routerLink)="/"> | incomplete |
-| Implement ClubService | import ClubService | incomplete |
-| Retrieve data from firebase | Import FirebaseListObservables<any[]> and add to constructor(s) private  angularfire: AngularFire (in service as well as .ts files using the service) | incomplete |
-| Create components | ( splash, admin, user-page(dynamic), new-post(dynamic), new-comment(dynamic) ) | incomplete |
-| Implement routing for all components | add to routes to router.ts and module.ts | incomplete|
+| Route to homepage(splash) in navbar | < a (routerLink)="/"> | complete (splash, about, admin) |
+| Create components | ( splash, about, admin, user-page(dynamic), post(dynamic) ) | complete (splash, about, admin, user-page, dynamic )|
+| Implement routing for all components | add to routes to router.ts and module.ts | complete|
+| Retrieve data from firebase | Import FirebaseListObservables<any[]> and add to constructor(s) private  angularfire: AngularFire (in service as well as .ts files using the service) | started |
 | Implement post request to Firebase for new-member | Add form for new-member on admin  | incomplete |
+| Create dynamic route for posts | link from splash | incomplete |
 | Create route for post from user-page | add button for new-post form on user-page | incomplete |
 | Create route for new-comment from post | add button for new-comment form on post | incomplete |
 | Implement post request to Firebase  (form on component new-post) | push to firebase (new post)| incomplete |
 | Create dynamic routing between components | get member by $key | incomplete |
-| Create dynamic routing for user-page |  use the $key from friebase | incomplete |
+| Create dynamic routing for user-page |  use the $key from firebase | incomplete |
 | Add the ability to edit a post from the user-page | Add form and use the memberId to edit an existing post | incomplete |
 |Add the ability to delete a post from the user-page | Add a delete button on the user-page with the postId | incomplete |  
 | Create pipe for generating posts on the splash page (rank, and username) | $ng g pipe club.pipe | incomplete |

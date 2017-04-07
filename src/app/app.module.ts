@@ -8,6 +8,10 @@ import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { SplashComponent } from './splash/splash.component';
+import { AboutComponent } from './about/about.component';
+import { AdminComponent } from './admin/admin.component';
+import { UserPageComponent } from './user-page/user-page.component';
+import { PostComponent } from './post/post.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -19,7 +23,11 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    SplashComponent
+    SplashComponent,
+    AboutComponent,
+    AdminComponent,
+    UserPageComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
