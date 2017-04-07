@@ -29,6 +29,11 @@ members: FirebaseListObservable<any[]>;
       username: memberToUpdate.username,
       ranking: memberToUpdate.ranking
     })
+  }
 
+  removeMember(memberToDelete){
+    var memberInDatabase = this.getMemberById(memberToDelete.$key);
+    memberInDatabase.remove();
+    console.log(memberInDatabase);
   }
 }

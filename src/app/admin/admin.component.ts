@@ -33,6 +33,12 @@ export class AdminComponent implements OnInit {
     this.clubService.updateMember(memberToUpdate);
   }
 
+  deleteMember(memberToDelete){
+    if(confirm('Are you sure you want to delete this member?')){
+      this.clubService.removeMember(memberToDelete);
+    }
+  }
+
   toggleAddForm(){
     if(this.newMemberForm) {
       this.newMemberForm = false;
