@@ -29,10 +29,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 | Objective | Implementation | Status |
 |:-------------:|:-------------:|:-------------:|
-| Create a new project | $ng new x-files | incomplete |
+| Create a new project | $ng new x-files | complete |
 | Application has a well thought out README | Set up README with implementation plan and all other necessary information. | complete |
-| Create seed (club.json) | ( displayName: " ", posts: [ id: "" post: ""], comments: [], ranking: " " )| incomplete |
-| Seed has been imported firebase | import club.json | incomplete |
+| Create seed (club.json) | ( displayName: " ", posts: [ id: "" post: ""], comments: [], ranking: " " )| complete |
+| Seed has been imported firebase | import club.json | complete |
 | Create routing | $ touch app.router.ts | incomplete |
 | Route to homepage(splash) in navbar | < a (routerLink)="/"> | incomplete |
 | Create service for project | $ ng g service club.service | incomplete |

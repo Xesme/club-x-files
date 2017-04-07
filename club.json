@@ -1,0 +1,49 @@
+{
+  "members": [
+    {
+    "username":"AGENT5IVE",
+    "ranking":"President",
+    "posts": [
+    {
+    "id":"1",
+    "title":"New X-Files comic inspired inspired by Funkos Pop! vinyl figures﻿ is coming this May",
+    "content":"This May, Funko’s Pop! vinyl figures are going back to the beginning by teaming with comic publisher IDW for a month of special one-shot comics featuring Funko versions of IDW’s iconic pop culture properties. Funko Universe Month at IDW will primarily consist of five one-shot comics: Ghostbusters, Teenage Mutant Ninja Turtles, The X-Files, Strawberry Shortcake, and Judge Dredd.The marriage of IDW’s powerful storytelling ability with the exuberant style of the Funko brand is a perfect match, IDW editor-in-chief David Hedgecock said in a statement.",
+    "img":"https://2.bp.blogspot.com/-7v4eExSVuYA/WLIGLbxmM3I/AAAAAAAAO_o/jXPnO_8vG9Eg8GRBFqr7-fLmmj_5ohaywCLcB/s1600/funko%2Bx%2Bfiles%2Bcomic.jpg"
+    }, {
+    "id":"2",
+    "title":"The X-Files X-Mas Special 2016",
+    "content":"When a school holiday pageant takes an extraterrestrial turn, Mulder must contend with old ghosts, present dangers, and close encounters yet to come. But this is no cookie-cutter Christmas Carol.Together with Scully, and a host of holiday visitors and visitations, they’ll rediscover the spirit of the season… if they can only survive the night.",
+    "img":"https://2.bp.blogspot.com/-_alg3TmaHBY/WHRAM8izEnI/AAAAAAAAO10/m6WWRp01ApwUjl2zBPANlSUSF_JTvv9-ACLcB/s1600/The%2BX-Files%2BX-Mas%2BSpecial%2B2016.jpg"
+    }
+    ]
+    }, {
+    "username":"GILGIRL",
+    "ranking":"Admin",
+    "posts": [
+    {
+    "id":"3",
+    "title":"Gillian Anderson at Golden Globe Awards and The Netflix Party Event",
+    "content":"Actress Gillian Anderson attended the 74th Annual Golden Globe Awards at The Beverly Hilton Hotel on January 8, 2017 in Beverly Hills, California. Also, she appeared at The Weinstein Company and Netflix Golden Globe Party, held on the same location.",
+    "img":"https://3.bp.blogspot.com/-qNFd8W69JPY/WHb5gxhbiDI/AAAAAAAAO20/BhtJpEJKfYM9rhmkJjwZSoar9SbOXPJHACLcB/s1600/Gillian%2BAnderson%2BGolden%2BGlobe%2B2017%2B%25281%2529.jpg"
+    }]
+    }, {
+    "username":"IBELIEVE2",
+    "ranking":"Member",
+    "posts": [{
+      "id":"4",
+      "title":"Fox very close to order more X Files",
+      "content":"Foxs most popular new show last year was the revival of The X-Files, and now the network is finally very close to ordering more episodes. At the Television Critics Association’s press tour in Pasadena, California on Wednesday, Fox president David Madden told reporters that while the deal-making is complex on the show due to the schedules of stars David Duchovny and Gillian Anderson, the network expects to have an announcement shortly.After Foxs executive session, Madden told Entertainment Weekly he wanted to have a reveal ready for Wednesdays event, but any deals werent quite done. Fox is looking to have more than the shortened, six-episode season that was ordered for last year’s revival … but also cautioned that its order won’t be as large as a traditional 22-episode broadcast series. Most likely, The X-Files will return in 2018, the executive noted.",
+      "img":"https://1.bp.blogspot.com/-PPYAsL2D4Hs/WHcM5H5kAxI/AAAAAAAAO4c/6NHUwFLXOhMmDyB-T694RSp_iYqFc8TtwCLcB/s1600/Fox%2Bvery%2Bclose%2Bto%2Border%2Bmore%2BX%2BFiles.png"
+    }]
+    }, {
+    "username":"XFILESFREAK",
+    "ranking":"Member",
+    "posts": [{
+      "id":"5",
+      "title":"MoPOPs Sci-Fi Hall of Fame inducting X-Files",
+      "content": "Some of the masters and masterpieces of science fiction are being honored with induction into the Science Fiction and Fantasy Hall of Fame at Seattles Museum of Pop Culture.X-Files is among the inductees as the Hall of Fame honors the lives, work, and ongoing legacies of science fiction and fantasys greatest creators, MoPOP said in a news release Tuesday. An opening event is planned for March 4 for a new Hall exhibition that will showcase the lives and legacies of the 108 current inductees through interpretive films, interactive kiosks, and more than 30 artifacts.",
+      "img":"https://4.bp.blogspot.com/-7h5k-ALgv5k/WILI6oV1vPI/AAAAAAAAO5E/sdJlepGtoPclsEwTD-JP6WgI-80wHHoEACLcB/s1600/MoPOP%25E2%2580%2599s%2BSci-Fi%2BHall%2Bof%2BFame%2Binducting%2B%25E2%2580%2598X-Files%25E2%2580%2599.png"
+    }]
+    }
+  ]
+}
