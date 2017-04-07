@@ -33,8 +33,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | Application has a well thought out README | Set up README with implementation plan and all other necessary information. | complete |
 | Create seed (club.json) | ( displayName: " ", posts: [ id: "" post: ""], comments: [], ranking: " " )| complete |
 | Seed has been imported firebase | import club.json | complete |
-| Create service for project | $ ng g service club.service | incomplete |
-| Create routing | $ touch app.router.ts | incomplete |
+| Create service for project | $ ng g service club.service | complete |
+| Create routing | $ touch app.router.ts | complete |
 | Route to homepage(splash) in navbar | < a (routerLink)="/"> | incomplete |
 | Implement ClubService | import ClubService | incomplete |
 | Retrieve data from firebase | Import FirebaseListObservables<any[]> and add to constructor(s) private  angularfire: AngularFire (in service as well as .ts files using the service) | incomplete |
