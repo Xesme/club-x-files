@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { routing } from './app.routing';
+import { ClubService } from './club.service';
 
 import { AppComponent } from './app.component';
 import { SplashComponent } from './splash/splash.component';
@@ -36,7 +37,7 @@ export const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     routing
   ],
-  providers: [],
+  providers: [ClubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
