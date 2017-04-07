@@ -37,12 +37,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | Implement ClubService | import ClubService | complete |
 | Create routing | $ touch app.router.ts | complete |
 | Route to homepage(splash) in navbar | < a (routerLink)="/"> | complete (splash, about, admin) |
-| Create components | ( splash, about, admin, user-page(dynamic), post(dynamic) ) | complete (splash, about, admin, user-page, dynamic )|
+| Create components | ( splash, about, admin, member-page(dynamic), post(dynamic) ) | complete (splash, about, admin, member-page, dynamic )|
 | Implement routing for all components | add to routes to router.ts and module.ts | complete|
-| Retrieve data from firebase | Import FirebaseListObservables<any[]> and add to constructor(s) private  angularfire: AngularFire (in service as well as .ts files using the service) | started |
+| Retrieve data from firebase | Import FirebaseListObservables<any[]> and add to constructor(s) private  angularfire: AngularFire (in service as well as .ts files using the service) | complete |
 | Implement post request to Firebase for new-member | Add form for new-member on admin  | incomplete |
 | Create dynamic route for posts | link from splash | incomplete |
-| Create route for post from user-page | add button for new-post form on user-page | incomplete |
+| Create route for post from member-page | add button for new-post form on user-page | incomplete |
 | Create route for new-comment from post | add button for new-comment form on post | incomplete |
 | Implement post request to Firebase  (form on component new-post) | push to firebase (new post)| incomplete |
 | Create dynamic routing between components | get member by $key | incomplete |

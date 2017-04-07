@@ -1,4 +1,27 @@
-
+<div class="row">
+  <button class="btn btn-m btn-success" *ngIf="newMemberForm == false" (click)="toggleAddForm()">Add Member</button>
+  <br><br>
+  <div *ngIf='newMemberForm'>
+    <div class="form-group">
+      <label>Username:</label>
+      <input #newUserName>
+    </div>
+    <div class="form-group">
+      <label>Ranking:</label>
+      <select #newRanking>
+        <option>Member</option>
+        <option>Admin</option>
+        <option>President</option>
+      </select>
+    </div>
+    <button class="btn btn-sm btn-success" (click)="sendNewMember(newUserName.value, newRanking.value)">Add</button>
+    <button class="btn btn-sm btn-info" (click)="toggleAddForm()">Cancel</button>
+  </div>
+</div>
+<!-- below are the members -->
+<br>
+<hr>
+<h2>Current members in the club:</h2>
 <div class="row" *ngFor="let member of members | async">
   <div class="col-lg-6">
     <div class="well">

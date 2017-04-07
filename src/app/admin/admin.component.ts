@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 })
 export class AdminComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
+  newMemberForm = false;
 
   constructor(private clubService: ClubService, private router: Router) { }
 
@@ -18,4 +19,20 @@ export class AdminComponent implements OnInit {
     this.members = this.clubService.getMembers();
   }
 
+  sendNewMember(username: string, ranking: string) {
+    var newMember = {
+      username: username,
+      ranking: ranking
+    }
+    this.clubService.saveMember(newMember);
+    this.newMemberForm = false;
+  }
+
+  toggleAddForm(){
+    if(this.newMemberForm) {
+      this.newMemberForm = false;
+    } else {
+      this.newMemberForm = true;
+    }
+  }
 }

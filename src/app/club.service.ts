@@ -18,4 +18,8 @@ members: FirebaseListObservable<any[]>;
   getMemberById(key: string) {
     return this.angularFire.database.object('members/' + key);
   }
+
+  saveMember(newMember){
+    this.members.push(newMember);
+  }
 }
