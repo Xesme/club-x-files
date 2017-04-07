@@ -5,7 +5,11 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
 export class ClubService {
 members: FirebaseListObservable<any[]>;
 
-  constructor(private angularFire: AngularFire) { }
+  constructor(private angularFire: AngularFire) {
+    this.members = angularFire.database.list('members');
+    console.log(this.members);
+  }
+
 
   getMembers() {
     return this.members;
