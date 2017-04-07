@@ -1,3 +1,11 @@
-<p>
-  admin works!
-</p>
+
+<div class="row" *ngFor="let member of members | async">
+  <div class="col-lg-6">
+    <div class="well">
+      <li>{{member.username}}</li>
+      <li>{{member.ranking}}</li>
+    </div>
+  </div>
+  <div class="col-lg-6">
+  </div>
+</div>

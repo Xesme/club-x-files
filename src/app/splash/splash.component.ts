@@ -15,7 +15,6 @@ export class SplashComponent implements OnInit {
   constructor(private clubService: ClubService, private router: Router) { }
 
   ngOnInit() {
-    console.log(this.members);
     this.members = this.clubService.getMembers();
   }
 
