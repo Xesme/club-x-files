@@ -12,6 +12,7 @@ import { Router } from '@angular/router';
 export class AdminComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
   newMemberForm = false;
+  memberEditForm;
 
   constructor(private clubService: ClubService, private router: Router) { }
 
@@ -28,11 +29,24 @@ export class AdminComponent implements OnInit {
     this.newMemberForm = false;
   }
 
+  editMember(memberToUpdate){
+    this.clubService.updateMember(memberToUpdate);
+  }
+
   toggleAddForm(){
     if(this.newMemberForm) {
       this.newMemberForm = false;
     } else {
       this.newMemberForm = true;
+    }
+  }
+
+  toggleEdit(member){
+    console.log(member);
+    if(this.memberEditForm == member){
+      this.memberEditForm = null;
+    } else {
+      this.memberEditForm = member;
     }
   }
 }

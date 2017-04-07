@@ -23,12 +23,29 @@
 <hr>
 <h2>Current members in the club:</h2>
 <div class="row" *ngFor="let member of members | async">
+  <div class="well">
   <div class="col-lg-6">
-    <div class="well">
-      <li>{{member.username}}</li>
+      <li><strong>{{member.username}}</strong></li>
       <li>{{member.ranking}}</li>
+  </div>
+  <button class="btn btn-sm btn-info right" *ngIf='memberEditForm == null' (click)="toggleEdit(member)">Edit Member</button>
+  <div class="col-lg-6">
+    <div *ngIf='memberEditForm == member'>
+      <div class="form-group">
+        <label>Username:</label>
+        <input [(ngModel)]="member.username">
+      </div>
+      <div class="form-group">
+        <label>Ranking:</label>
+        <select [(ngModel)]="member.ranking">
+          <option>Member</option>
+          <option>Admin</option>
+          <option>President</option>
+        </select>
+      </div>
+      <button class="btn btn-sm btn-success" (click)="editMember(member)">Add</button>
+      <button class="btn btn-sm btn-info" (click)="toggleEdit(member)">Cancel</button>
     </div>
   </div>
-  <div class="col-lg-6">
-  </div>
+</div>
 </div>

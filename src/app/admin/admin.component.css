@@ -1,0 +1,8 @@
+li {
+  list-style: none;
+}
+
+.right {
+  position: relative;
+  left: 750px;
+}

@@ -22,4 +22,13 @@ members: FirebaseListObservable<any[]>;
   saveMember(newMember){
     this.members.push(newMember);
   }
+
+  updateMember(memberToUpdate){
+    var memberInDatabase = this.getMemberById(memberToUpdate.$key);
+    memberInDatabase.update({
+      username: memberToUpdate.username,
+      ranking: memberToUpdate.ranking
+    })
+
+  }
 }
