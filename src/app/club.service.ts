@@ -38,11 +38,11 @@ members: FirebaseListObservable<any[]>;
     console.log(newPost.memberKey);
     var memberInDatabase = this.getMemberById(newPost.memberKey);
     memberInDatabase.update({
-      posts: {
+      posts: [{
         title: newPost.title,
         content: newPost.content,
         img: newPost.img
-      }
+      }]
     })
   }
 }
