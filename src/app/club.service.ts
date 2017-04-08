@@ -7,7 +7,6 @@ members: FirebaseListObservable<any[]>;
 
   constructor(private angularFire: AngularFire) {
     this.members = angularFire.database.list('members');
-    console.log(this.members);
   }
 
   getMembers() {
@@ -33,6 +32,17 @@ members: FirebaseListObservable<any[]>;
   removeMember(memberToDelete){
     var memberInDatabase = this.getMemberById(memberToDelete.$key);
     memberInDatabase.remove();
-    console.log(memberInDatabase);
+  }
+
+  addNewPost(newPost){
+    console.log(newPost.memberKey);
+    var memberInDatabase = this.getMemberById(newPost.memberKey);
+    memberInDatabase.update({
+      posts: {
+        title: newPost.title,
+        content: newPost.content,
+        img: newPost.img
+      }
+    })
   }
 }

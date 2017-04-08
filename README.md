@@ -48,7 +48,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | Create route for post from member-page | add button for new-post form on user-page | incomplete |
 | Create route for new-comment from post | add button for new-comment form on post | incomplete |
 | Implement post request to Firebase  (form on component new-post) | push to firebase (new post)| incomplete |
-| Create dynamic routing between components | get member by $key | incomplete |
+| Create dynamic routing between components | get member by $key | complete |
 | Create dynamic routing for member-page |  use the $key from firebase | incomplete |
 | Create pipe for generating posts on the splash page (rank, and username) | $ng g pipe club.pipe | incomplete |
 | (Extra) Project is portfolio-quality | Removed unnecessary code and use SASS or CSS for styling | incomplete |
