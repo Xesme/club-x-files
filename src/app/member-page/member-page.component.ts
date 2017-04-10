@@ -16,6 +16,7 @@ export class MemberPageComponent implements OnInit {
   currentMember;
   newPostForm = false;
 
+
   constructor(private clubService: ClubService, private router: Router, private activatedRoute: ActivatedRoute, private location: Location) { }
 
   ngOnInit() {
@@ -34,7 +35,6 @@ export class MemberPageComponent implements OnInit {
   }
 
   sendNewPost(title: string, content: string, img: string) {
-    console.log(this.memberKey);
     var newPost = {
       title: title,
       content: content,
@@ -44,4 +44,5 @@ export class MemberPageComponent implements OnInit {
     this.clubService.addNewPost(newPost);
     this.newPostForm = false;
   }
+
 }

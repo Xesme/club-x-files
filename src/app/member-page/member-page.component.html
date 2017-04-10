@@ -1,15 +1,10 @@
 <div>
   <h2>{{(currentMember | async)?.username}}</h2>
-  <h2>{{(currentMember | async)?.ranking}}</h2>
-  <h2>{{(currentMember | async)?.posts.title}}</h2>
-  <!-- <div *ngFor="let post of {{currentMember.posts}}">
-    <li>{{post.title}}</li>
-  </div> -->
-  <!-- <h2 *ngFor="let post of {{currentMember.posts}}">{{post.posts}}</h2> -->
+  <h3>Membership Status: {{(currentMember | async)?.ranking}}</h3>
 </div>
 <!-- form to make a new post -->
 <div class="row">
-  <h4>Creat a new post by {{(currentMember | async)?.username}}</h4>
+  <h4>Create a new post by {{(currentMember | async)?.username}}</h4>
   <button class="btn btn-m btn-success" *ngIf="newPostForm == false" (click)="togglePostForm()">New Post</button>
   <br><br>
   <div *ngIf='newPostForm'>

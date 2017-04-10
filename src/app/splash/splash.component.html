@@ -1,12 +1,14 @@
-<div class="well" *ngFor="let member of members | async">
+<div *ngFor="let member of members | async">
   <div class="row">
     <div class="col-lg-10" *ngFor="let post of member.posts">
-    <h5>{{post.title}}</h5>
-    <p>{{post.content}}</p>
-    </div>
-    <br>
-    <div class="col-lg-2">
-      post by: {{member.username}}
+      <div class="well">
+        <h5>{{post.title}}</h5>
+        <p>{{post.content}}</p>
+        <br>
+        <div class="col-lg-2">
+          post by: {{member.username}}
+        </div>
+      </div>
     </div>
   </div>
 </div>
