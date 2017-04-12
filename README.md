@@ -44,13 +44,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | Add the ability to edit a member from the admin page | Add form and use the member.$key to update an existing post | complete |
 |Add the ability to delete a member from the admin page | Add a delete button on the admin page | complete |
 | Create a members-list page to display members | members component | complete |
-| Create dynamic route for posts | link from members and admin page | incomplete |
-| Create route for post from member-page | add button for new-post form on user-page | incomplete |
-| Create route for new-comment from post | add button for new-comment form on post | incomplete |
-| Implement post request to Firebase  (form on component new-post) | push to firebase (new post)| incomplete |
-| Create dynamic routing between components | get member by $key | complete |
-| Create dynamic routing for member-page |  use the $key from firebase | incomplete |
-| Create pipe for generating posts on the splash page (rank, and username) | $ng g pipe club.pipe | incomplete |
+| Create dynamic routing for member-page |  use the $key from firebase | complete |
+| Create pipe for generating posts on the member-list page (rank, and username) | $ng g pipe ranking.pipe | complete |
+| Create a model | member.model.ts | complete |
+| (Extra) Create new post form from member-page | add button for new-post form on user-page | complete |
+| (Extra) Implement post request to Firebase  (form on component new-post) | push to firebase (new post)| complete |
 | (Extra) Project is portfolio-quality | Removed unnecessary code and use SASS or CSS for styling | incomplete |
 
 ## Setup/Installation Requirements
