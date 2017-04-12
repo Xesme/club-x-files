@@ -1,4 +1,4 @@
-<!-- firn ti add a new member -->
+<!-- form to add a new member -->
 <div class="row">
   <button class="btn btn-m btn-success" *ngIf="newMemberForm == false" (click)="toggleAddForm()">Add Member</button>
   <br><br>
@@ -26,8 +26,9 @@
 <div class="row member-dv" *ngFor="let member of members | async">
   <div class="well">
   <div class="col-lg-10">
-      <li><strong>{{member.username}}</strong></li>
-      <li>{{member.ranking}}</li>
+      <li>Username:<strong> {{member.username}}</strong></li>
+      <br>
+      <li>Ranking:<strong> {{member.ranking}}</strong></li>
     </div>
     <br>
     <br>

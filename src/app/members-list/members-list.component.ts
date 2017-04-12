@@ -26,6 +26,5 @@ export class MembersListComponent implements OnInit {
 
   checkRank(ranking){
     this.filterRank = ranking;
-    // console.log(this.filterRank);
   }
 }

@@ -12,7 +12,6 @@ export class RankingPipe implements PipeTransform {
   transform(input: Member[], checkRank){
     var output: Member[] = [];
     if(input){
-      console.log(input);
       if(checkRank === "admin"){
         for(var i = 0; i < input.length; ++i){
           if(input[i].ranking === "admin"){
