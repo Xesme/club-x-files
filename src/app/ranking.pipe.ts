@@ -9,13 +9,7 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
 export class RankingPipe implements PipeTransform {
 
   transform(input: any, checkRank){
-  //   if (input){
-  //     if(checkRank === "member"){
-  //       return
-  //   } else {
-  //     return input;
-  //   }
-  // }
+  
 }
 
 }

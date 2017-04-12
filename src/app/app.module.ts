@@ -15,6 +15,7 @@ import { PostComponent } from './post/post.component';
 import { MemberPageComponent } from './member-page/member-page.component';
 import { MembersListComponent } from './members-list/members-list.component';
 import { RankingPipe } from './ranking.pipe';
+import { NewMemberComponent } from './new-member/new-member.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -32,7 +33,8 @@ export const firebaseConfig = {
     PostComponent,
     MemberPageComponent,
     MembersListComponent,
-    RankingPipe
+    RankingPipe,
+    NewMemberComponent
   ],
   imports: [
     BrowserModule,
