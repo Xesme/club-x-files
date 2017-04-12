@@ -49,7 +49,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 | Create a model | member.model.ts | complete |
 | (Extra) Create new post form from member-page | add button for new-post form on user-page | complete |
 | (Extra) Implement post request to Firebase  (form on component new-post) | push to firebase (new post)| complete |
-| (Extra) Project is portfolio-quality | Removed unnecessary code and use SASS or CSS for styling | incomplete |
+| (Extra) Project is portfolio-quality | Remove unnecessary code, refactor if needed, and use SASS or CSS for styling | started |
 
 ## Setup/Installation Requirements
 

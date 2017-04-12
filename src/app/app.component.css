@@ -1,0 +1,13 @@
+.navbar {
+  padding-right: 40px;
+}
+
+.cursor {
+  cursor: pointer;
+  color: red;
+}
+
+.pipe {
+  position: absolute;
+  right: 345px;
+}

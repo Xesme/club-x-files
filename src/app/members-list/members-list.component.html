@@ -1,4 +1,6 @@
+<h2>Current members of the X-Files fan club:</h2>
 <div class="pipe">
+<label>filter users:</label>
 <select (change)="checkRank($event.target.value)">
   <option value="">All Members</option>
   <option value="admin">Admin</option>
@@ -6,7 +8,8 @@
   <option value="president">President</option>
 </select>
 </div>
-<h2>Current members of the X-Files fan club:</h2>
+<br>
+<label>Click on a member below to visit member's page</label>
 <div *ngFor="let member of members | async | ranking:filterRank">
-  <h4 (click)="goToMemberPage(member)">{{member.username}}</h4>
+  <h4 class="cursor" (click)="goToMemberPage(member)">{{member.username}}</h4>
 </div>
