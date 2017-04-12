@@ -9,5 +9,6 @@
 }
 
 .jumbotron {
+  height: 350px;
   background-image: url("./img/x-files.jpg");
 }
