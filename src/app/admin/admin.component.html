@@ -10,9 +10,9 @@
     <div class="form-group">
       <label>Ranking:</label>
       <select #newRanking>
-        <option>Member</option>
-        <option>Admin</option>
-        <option>President</option>
+        <option value="member">Member</option>
+        <option value="admin">Admin</option>
+        <option value="president">President</option>
       </select>
     </div>
     <button class="btn btn-sm btn-success" (click)="sendNewMember(newUserName.value, newRanking.value)">Add</button>
@@ -39,9 +39,9 @@
       <div class="form-group">
         <label>Ranking:</label>
         <select [(ngModel)]="member.ranking">
-          <option>Member</option>
-          <option>Admin</option>
-          <option>President</option>
+          <option value="member">Member</option>
+          <option value="admin">Admin</option>
+          <option value="president">President</option>
         </select>
       </div>
       <hr>
