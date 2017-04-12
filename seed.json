@@ -2,7 +2,7 @@
   "members": [
     {
     "username":"AGENT5IVE",
-    "ranking":"President",
+    "ranking":"president",
     "posts": [
     {
     "id":"1",
@@ -18,7 +18,7 @@
     ]
     }, {
     "username":"GILGIRL",
-    "ranking":"Admin",
+    "ranking":"admin",
     "posts": [
     {
     "id":"3",
@@ -28,7 +28,7 @@
     }]
     }, {
     "username":"IBELIEVE2",
-    "ranking":"Member",
+    "ranking":"member",
     "posts": [{
       "id":"4",
       "title":"Fox very close to order more X Files",
@@ -37,7 +37,7 @@
     }]
     }, {
     "username":"XFILESFREAK",
-    "ranking":"Member",
+    "ranking":"member",
     "posts": [{
       "id":"5",
       "title":"MoPOPs Sci-Fi Hall of Fame inducting X-Files",
