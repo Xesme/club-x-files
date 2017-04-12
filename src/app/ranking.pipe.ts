@@ -1,12 +1,21 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
 
 @Pipe({
-  name: 'ranking'
+  name: 'ranking',
+  pure: false
 })
+
 export class RankingPipe implements PipeTransform {
 
-  transform(value: any, args?: any): any {
-    return null;
-  }
+  transform(input: any, checkRank){
+  //   if (input){
+  //     if(checkRank === "member"){
+  //       return
+  //   } else {
+  //     return input;
+  //   }
+  // }
+}
 
 }

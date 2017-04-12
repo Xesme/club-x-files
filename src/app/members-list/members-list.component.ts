@@ -12,6 +12,7 @@ import { Router } from '@angular/router';
 })
 export class MembersListComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
+  filterRank: string;
 
   constructor(private clubService: ClubService, private router: Router) { }
 
@@ -21,5 +22,10 @@ export class MembersListComponent implements OnInit {
 
   goToMemberPage(member){
     this.router.navigate(['member-page', member.$key]);
+  }
+
+  checkRank(ranking){
+    this.filterRank = ranking;
+    console.log(this.filterRank);
   }
 }
