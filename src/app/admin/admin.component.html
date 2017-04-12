@@ -33,7 +33,7 @@
     <br>
     <br>
     <hr>
-      <button class="btn btn-sm btn-info right" *ngIf='memberEditForm == null' (click)="toggleEdit(member)">Edit Member</button>
+      <button class="btn btn-sm btn-info right" *ngIf='memberEditForm == false' (click)="toggleEdit(member)">Edit Member</button>
       <!-- edit member  -->
       <div *ngIf='memberEditForm == member'>
         <div class="form-group">
